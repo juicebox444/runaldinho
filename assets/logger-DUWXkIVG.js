@@ -1,0 +1,2 @@
+import{T as e,b as t,c as n,l as r,r as i}from"./vendor-zod-DoqZZbs7.js";var a=t({author:e(),isOwn:r(),timestamp:e(),text:e()}).strict();t({id:e().min(1),profileId:e().min(1),source:e().min(1),date:e().regex(/^\d{4}-\d{2}-\d{2}$/),comments:n(a),fetchedAt:i()}).strict().refine(e=>e.id===`${e.profileId}:${e.source}:${e.date}`,{message:"id must be `${profileId}:${source}:${date}`"});var o=(e,t,n)=>`${e}:${t}:${n}`,s={debug:(e,t)=>{},info:(e,t)=>{},warn:(e,t)=>{},error:(e,t)=>{console.error(e,t)}};export{o as n,s as t};
+//# sourceMappingURL=logger-DUWXkIVG.js.map

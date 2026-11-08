@@ -1,0 +1,2 @@
+var e=[{value:`cycling`,icon:`bike`},{value:`running`,icon:`run`},{value:`swimming`,icon:`swim`}],t=t=>e.map(e=>({...e,label:t(`sports.${e.value}`)}));function n(e){return e===`cycling`||e===`running`||e===`swimming`}export{t as n,n as r,e as t};
+//# sourceMappingURL=sports-BAj0VshV.js.map

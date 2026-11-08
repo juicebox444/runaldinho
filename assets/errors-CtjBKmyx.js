@@ -1,0 +1,2 @@
+import{mt as e}from"./kaiord-core-dzgiAKbW.js";var t=class extends Error{constructor(t){super(`Profile not found: ${t}`),e(this,`name`,`ProfileNotFoundError`),e(this,`profileId`,void 0),this.profileId=t}};export{t};
+//# sourceMappingURL=errors-CtjBKmyx.js.map

@@ -1,0 +1,2 @@
+var e=/^\d{4}-\d{2}-\d{2}$/;function t(t){if(!e.test(t))return!1;let n=new Date(`${t}T12:00:00Z`);return!Number.isNaN(n.getTime())&&n.toISOString().slice(0,10)===t}export{t};
+//# sourceMappingURL=is-valid-calendar-date-B-OLewdL.js.map

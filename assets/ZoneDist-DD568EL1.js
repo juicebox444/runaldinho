@@ -1,0 +1,2 @@
+import{i as e}from"./preload-helper-DNjLGUyX.js";import{I as t,R as n}from"./vendor-ui-C43Zr3cL.js";import{D as r}from"./index-Bd-X6R-z.js";var i=e(n(),1),a=t(),o=(0,i.forwardRef)(({dist:e,height:t=8,className:n=``,style:i,...o},s)=>{let c=[`flex gap-[2px] rounded-full overflow-hidden`,n].filter(Boolean).join(` `);return(0,a.jsx)(`div`,{ref:s,className:c,style:{height:t,...i},...o,children:e.map((e,t)=>e<=0?null:(0,a.jsx)(`div`,{className:r(t+1),style:{flex:e}},t))})});o.displayName=`ZoneDist`;export{o as t};
+//# sourceMappingURL=ZoneDist-DD568EL1.js.map

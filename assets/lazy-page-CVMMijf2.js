@@ -1,0 +1,2 @@
+import{i as e}from"./preload-helper-DNjLGUyX.js";import{R as t}from"./vendor-ui-C43Zr3cL.js";var n=e(t(),1),r=[`pointerdown`,`keydown`,`pageshow`],i=0,a=!1,o=()=>{a=!1;for(let e of r)window.removeEventListener(e,o,!0)},s=()=>{if(!a){a=!0;for(let e of r)window.addEventListener(e,o,!0)}},c=()=>{i+=1,i===1&&window.addEventListener(`beforeunload`,s)},l=()=>{--i,i===0&&window.removeEventListener(`beforeunload`,s)},u=async e=>{c();try{return await e()}finally{l()}},d=()=>a,f=e=>(0,n.lazy)(()=>u(e));export{d as n,u as r,f as t};
+//# sourceMappingURL=lazy-page-CVMMijf2.js.map

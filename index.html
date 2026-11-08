@@ -1,0 +1,215 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+
+    <title>
+      Runaldinho â€” Training calendar, workout editor & fitness file converter
+    </title>
+    <meta
+      name="description"
+      content="Free, local-first training app: weekly calendar, visual workout editor, AI workout generation, Garmin &amp; WHOOP sync, and wellness tracking. Create and convert FIT, TCX, ZWO, and Garmin Connect files in your browser â€” no account needed. By Pablo Albaladejo."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://juicebox444.github.io/runaldinho/" />
+
+    <!-- Font -->
+    <link
+      rel="preload"
+      href="/runaldinho/fonts/inter-var-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/runaldinho/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/runaldinho/favicon.png" />
+    <link rel="apple-touch-icon" href="/runaldinho/apple-touch-icon.png" />
+    <link rel="manifest" href="/runaldinho/manifest.webmanifest" />
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#0d0d0d" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Runaldinho â€” Training calendar, workout editor & fitness file converter"
+    />
+    <meta
+      property="og:description"
+      content="Free, local-first training app: weekly calendar, visual workout editor, AI workout generation, Garmin &amp; WHOOP sync, and wellness tracking â€” all in your browser, no account needed."
+    />
+    <meta
+      property="og:image"
+      content="https://juicebox444.github.io/runaldinho/og-image-editor.png"
+    />
+    <meta property="og:url" content="https://juicebox444.github.io/runaldinho/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Runaldinho" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Runaldinho â€” Training calendar, workout editor & fitness file converter"
+    />
+    <meta
+      name="twitter:description"
+      content="Free, local-first training app: weekly calendar, visual workout editor, AI workout generation, Garmin &amp; WHOOP sync, and wellness tracking â€” all in your browser, no account needed."
+    />
+    <meta
+      name="twitter:image"
+      content="https://juicebox444.github.io/runaldinho/og-image-editor.png"
+    />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Runaldinho",
+        "description": "Free, local-first training app: weekly calendar, visual workout editor, AI workout generation, Garmin and WHOOP sync, and wellness tracking. Creates and converts FIT, TCX, ZWO, and Garmin Connect workout files entirely in the browser.",
+        "url": "https://juicebox444.github.io/runaldinho/",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript. Works in any modern browser.",
+        "isAccessibleForFree": true,
+        "featureList": [
+          "Weekly training calendar",
+          "Visual structured-workout editor",
+          "AI workout generation",
+          "Garmin Connect and WHOOP sync",
+          "Wellness tracking",
+          "FIT, TCX, ZWO, and Garmin Connect file conversion",
+          "Local-first storage â€” data never leaves the browser"
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Pablo Albaladejo",
+          "sameAs": [
+            "https://www.linkedin.com/in/pablo-albaladejo-aws-software-engineer-ai",
+            "https://pabloalbaladejo.com",
+            "https://github.com/pablo-albaladejo"
+          ]
+        }
+      }
+    </script>
+
+    <!--
+      Runtime configuration. The placeholder __UMAMI_WEBSITE_ID__ is
+      substituted by the deploy step (NOT by Vite). When the placeholder is
+      still in place â€” local dev, preview builds, or deploys without a website
+      id â€” the conditional loader below treats it as "no id" and the Umami
+      tracker is never injected. 12-factor III + V: the build artifact is
+      environment-agnostic.
+    -->
+    <script>
+      // Defaults; the deploy step substitutes the placeholder. Earlier scripts
+      // (e.g., test fixtures using Playwright's addInitScript) may pre-seed
+      // window.__KAIORD_CONFIG__ â€” preserve their values.
+      window.__KAIORD_CONFIG__ = window.__KAIORD_CONFIG__ || {
+        umamiWebsiteId: "__UMAMI_WEBSITE_ID__",
+      };
+    </script>
+    <script>
+      (function () {
+        var cfg = window.__KAIORD_CONFIG__ || {};
+        var id = cfg.umamiWebsiteId;
+        // Guard on the first character rather than the placeholder literal:
+        // the deploy-time sed rewrites every "__UMAMI_WEBSITE_ID__" in this
+        // file, so a literal comparison here would be rewritten too and always
+        // match. A real website id (UUID) never starts with "_".
+        if (!id || id.charAt(0) === "_") return;
+        var s = document.createElement("script");
+        s.defer = true;
+        s.src = "https://cloud.umami.is/script.js";
+        s.setAttribute("data-website-id", id);
+        // Editor routes are client-side (wouter); disable auto-track and
+        // submit page views manually with the base-relative path.
+        s.setAttribute("data-auto-track", "false");
+        document.head.appendChild(s);
+      })();
+    </script>
+    <script type="module" crossorigin src="/runaldinho/assets/index-Bd-X6R-z.js"></script>
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/preload-helper-DNjLGUyX.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/vendor-ui-C43Zr3cL.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/vendor-zod-DoqZZbs7.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/kaiord-core-dzgiAKbW.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/sport-zones-D9Ldcbae.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/crypto-y7-SmdbY.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/logger-DUWXkIVG.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/coaching-activity-record-DmtzJNIX.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/athlete-D1Kchamy.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/calendar-lhjHBGwW.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/chat-y1F4vlcm.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/coach-CX27w_U6.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/coaching-BpyMGgvs.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/common-Be9aG32i.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/connections-Cd2j6MxO.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/create-workout-DrSy5LZo.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/daily-CvaTOuQd.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/editor-D2TmjX6i.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/errors-B2qikmHz.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/health-DGNfInEp.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/help-BaEB3FEW.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/import-Dhw8kMu-.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/labImport-C5NSvHTx.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/labs-ui-vfnO1RYh.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/labs-xzfn9zIX.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/library-K0srDTut.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/nav-RUjy1zKH.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/nutrition-BLUta_4I.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/palette-7GdrCfHK.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/settings-C-JCxyUR.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/setup-BwoOCBU3.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/targets-etEePvYu.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/workout-detail-C2zFxoMP.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/workout-review-flmUtpSH.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/zones-SwVDDw8g.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/use-translate-D1xRS6mT.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/coaching-account-C1ReogQm.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/profile-D6psYLIb.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/calculate-power-zones-Bqf9dUul.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/profile-factory-WN4IFUZr.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/lazy-page-CVMMijf2.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/bridge-discovery-CApuNA9L.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/settings-section-D20F_OoH.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/persistence-context-dzTsq-7D.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/createLucideIcon-CS2Nw6GH.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/vendor-state-B6lLK-WH.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/stamp-provenance-D53PVE1f.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/today-iso-date-CHQzP4sV.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/manual-steps-row-CYTezt9U.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/with-origin-DCktrZKj.js">
+    <link rel="stylesheet" crossorigin href="/runaldinho/assets/index-8qZSxcxF.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <h1>Runaldinho</h1>
+      <p>
+        Runaldinho is a free, local-first training app: a weekly training
+        calendar, a visual workout editor, AI workout generation, Garmin &amp;
+        WHOOP sync, and wellness tracking. It creates and converts FIT, TCX,
+        ZWO, and Garmin Connect workout files entirely in your browser â€” no
+        account needed. JavaScript is required to run the app.
+      </p>
+      <p>
+        Learn more on the
+        <a href="https://kaiord.com/">project landing page</a> or read the
+        <a href="https://kaiord.com/docs/">documentation</a>.
+      </p>
+    </noscript>
+  </body>
+</html>
