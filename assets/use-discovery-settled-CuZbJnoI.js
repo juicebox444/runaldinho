@@ -1,2 +1,0 @@
-import{i as e}from"./preload-helper-DNjLGUyX.js";import{R as t}from"./vendor-ui-C43Zr3cL.js";import{r as n,t as r}from"./bridge-discovery-CApuNA9L.js";import{v as i}from"./index-Bd-X6R-z.js";var a=e(t(),1),o=r+n,s=e=>{let[,t]=(0,a.useState)(0),n=i(),r=e>0||Date.now()-n>=o;return(0,a.useEffect)(()=>{if(r)return;let e=n+o-Date.now(),i=setTimeout(()=>t(e=>e+1),Math.max(e,0));return()=>clearTimeout(i)},[r,n]),r};export{s as t};
-//# sourceMappingURL=use-discovery-settled-CuZbJnoI.js.map
