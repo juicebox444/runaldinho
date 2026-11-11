@@ -1,0 +1,2 @@
+import{tt as e}from"./use-translate-Zu1RQiBV.js";var t=new Set([`workout`,`activity`,`weight`,`sleep`,`hrv`,`daily-wellness`,`body-composition`,`stress`,`training-zones`,`planned-session`]),n=`manual`,r=t=>t===`manual`?n:e(t)??t,i=(e,r)=>{let i=(e.get(r)?.import??[]).filter(e=>e.enabled),a=[...new Set(i.map(e=>e.bridgeId))];return t.has(r)&&a.push(n),a},a=(e,t)=>t.find(t=>e.includes(t));export{t as a,r as i,i as n,a as r,n as t};
+//# sourceMappingURL=data-type-sources-Bawb-d87.js.map
