@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Extensiones de Runaldinho</title>
+    <meta
+      name="description"
+      content="Extensiones que conectan Runaldinho con Garmin Connect, Train2Go, WHOOP, Tanita y TrainingPeaks."
+    />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f7f7f5;
+        --surface: #ffffff;
+        --ink: #16181d;
+        --muted: #5c6370;
+        --edge: #e3e4e8;
+        --accent: #1f6feb;
+        --accent-ink: #ffffff;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #101216;
+          --surface: #191c22;
+          --ink: #eef0f4;
+          --muted: #a2a9b8;
+          --edge: #2a2f39;
+          --accent: #4c8dff;
+          --accent-ink: #0b0d11;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 2.5rem 1.25rem 4rem;
+        background: var(--bg);
+        color: var(--ink);
+        font: 16px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+          Roboto, sans-serif;
+      }
+      main {
+        max-width: 46rem;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: clamp(1.6rem, 4vw, 2.1rem);
+        line-height: 1.15;
+        margin: 0 0 0.5rem;
+      }
+      h2 {
+        font-size: 1.05rem;
+        margin: 2.5rem 0 0.75rem;
+      }
+      p {
+        margin: 0 0 1rem;
+      }
+      .lede {
+        color: var(--muted);
+        max-width: 38rem;
+      }
+      .back {
+        display: inline-block;
+        margin-bottom: 1.5rem;
+        color: var(--accent);
+        text-decoration: none;
+        font-size: 0.9rem;
+      }
+      .back:hover {
+        text-decoration: underline;
+      }
+      ul.cards {
+        list-style: none;
+        margin: 1.25rem 0 0;
+        padding: 0;
+        display: grid;
+        gap: 0.75rem;
+      }
+      .card {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.75rem 1rem;
+        padding: 1rem 1.1rem;
+        background: var(--surface);
+        border: 1px solid var(--edge);
+        border-radius: 0.9rem;
+      }
+      .card-text {
+        min-width: 12rem;
+        flex: 1 1 18rem;
+      }
+      .card-name {
+        display: block;
+        font-weight: 650;
+        margin-bottom: 0.15rem;
+      }
+      .card-desc {
+        display: block;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+      .download {
+        flex: none;
+        padding: 0.55rem 0.95rem;
+        border-radius: 0.6rem;
+        background: var(--accent);
+        color: var(--accent-ink);
+        font-weight: 600;
+        font-size: 0.9rem;
+        text-decoration: none;
+      }
+      .download:hover {
+        filter: brightness(1.08);
+      }
+      ol.steps {
+        margin: 0;
+        padding-left: 1.25rem;
+        color: var(--muted);
+      }
+      ol.steps li {
+        margin-bottom: 0.4rem;
+      }
+      ol.steps strong {
+        color: var(--ink);
+      }
+      code {
+        padding: 0.1rem 0.35rem;
+        border: 1px solid var(--edge);
+        border-radius: 0.35rem;
+        background: var(--bg);
+        font-size: 0.85em;
+      }
+      .note {
+        margin-top: 2rem;
+        padding: 0.85rem 1rem;
+        border: 1px solid var(--edge);
+        border-left: 3px solid var(--accent);
+        border-radius: 0.6rem;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a class="back" href="../">&larr; Volver a Runaldinho</a>
+      <h1>Extensiones de Runaldinho</h1>
+      <p class="lede">
+        Instala solo el puente que necesites. Cada extensión vive en tu
+        navegador y se comunica con la aplicación; no hay cuentas ni servidores
+        intermedios.
+      </p>
+
+      <ul class="cards">
+        <li class="card">
+          <span class="card-text">
+            <span class="card-name">Garmin Connect</span>
+            <span class="card-desc">
+              Sube entrenamientos al calendario y detecta tu sesión de Garmin.
+            </span>
+          </span>
+          <a class="download" href="runaldinho-garmin.zip" download
+            >Descargar .zip</a
+          >
+        </li>
+        <li class="card">
+          <span class="card-text">
+            <span class="card-name">Train2Go</span>
+            <span class="card-desc">
+              Trae tus planes de entrenamiento a Runaldinho.
+            </span>
+          </span>
+          <a class="download" href="runaldinho-train2go.zip" download
+            >Descargar .zip</a
+          >
+        </li>
+        <li class="card">
+          <span class="card-text">
+            <span class="card-name">WHOOP</span>
+            <span class="card-desc">
+              Sincroniza sueño, recuperación y esfuerzo.
+            </span>
+          </span>
+          <a class="download" href="runaldinho-whoop.zip" download
+            >Descargar .zip</a
+          >
+        </li>
+        <li class="card">
+          <span class="card-text">
+            <span class="card-name">Tanita</span>
+            <span class="card-desc">
+              Importa peso y composición corporal desde tu báscula.
+            </span>
+          </span>
+          <a class="download" href="runaldinho-tanita.zip" download
+            >Descargar .zip</a
+          >
+        </li>
+        <li class="card">
+          <span class="card-text">
+            <span class="card-name">TrainingPeaks</span>
+            <span class="card-desc">Conecta TrainingPeaks con Runaldinho.</span>
+          </span>
+          <a class="download" href="runaldinho-trainingpeaks.zip" download
+            >Descargar .zip</a
+          >
+        </li>
+      </ul>
+
+      <h2>Cómo instalar</h2>
+      <ol class="steps">
+        <li>Descarga y <strong>descomprime</strong> el .zip en una carpeta.</li>
+        <li>
+          Abre <code>chrome://extensions</code> (o
+          <code>brave://extensions</code>) en tu navegador.
+        </li>
+        <li>Activa el <strong>Modo de desarrollador</strong>, arriba a la derecha.</li>
+        <li>
+          Pulsa <strong>Cargar descomprimida</strong> y elige la carpeta que
+          descomprimiste.
+        </li>
+        <li>Fija el icono en la barra para tenerlo a mano.</li>
+      </ol>
+
+      <p class="note">
+        Solo se instala en tu navegador: Runaldinho no recibe tus credenciales.
+        Si actualizas la extensión, vuelve a cargar la carpeta para reemplazar
+        la anterior.
+      </p>
+    </main>
+  </body>
+</html>
