@@ -1,0 +1,2 @@
+import{I as e}from"./vendor-ui-C43Zr3cL.js";import{E as t,T as n,w as r}from"./selectors-CmbhPwJ0.js";import{t as i}from"./ConfirmationModal-56FSh4eq.js";var a=e();function o(){let e=n(),o=t(),s=r();return o?(0,a.jsx)(i,{isOpen:e,title:o.title,message:o.message,confirmLabel:o.confirmLabel,cancelLabel:o.cancelLabel,onConfirm:()=>{o.onConfirm(),s()},onCancel:o.onCancel??s,variant:o.variant}):null}export{o as t};
+//# sourceMappingURL=ConfirmationModal-AV_iElsk.js.map
