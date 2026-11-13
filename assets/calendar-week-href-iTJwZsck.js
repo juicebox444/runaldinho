@@ -1,2 +1,0 @@
-import{rn as e}from"./index-CIhgFsRU.js";function t(t){let[n,r,i]=t.split(`-`).map(Number);return`/calendar/${e(new Date(n??0,(r??1)-1,i??1))}`}export{t};
-//# sourceMappingURL=calendar-week-href-iTJwZsck.js.map

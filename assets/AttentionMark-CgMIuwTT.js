@@ -1,0 +1,2 @@
+import{I as e}from"./vendor-ui-C43Zr3cL.js";import{ct as t,rt as n}from"./index-C8LroSQG.js";var r=e(),i=({size:e=`sm`,className:i=``,...a})=>(0,r.jsx)(`span`,{"aria-hidden":`true`,className:`flex-none text-ink-strong ${i}`.trim(),...a,children:(0,r.jsx)(n,{icon:t,size:e,color:`inherit`})});export{i as t};
+//# sourceMappingURL=AttentionMark-CgMIuwTT.js.map

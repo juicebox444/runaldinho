@@ -1,2 +1,0 @@
-import{Vt as e}from"./index-CIhgFsRU.js";import{t}from"./errors-CtjBKmyx.js";function n(t,n){return e({...t,...n,updatedAt:new Date().toISOString()})}var r=async(e,r,i)=>e.transaction(async()=>{let a=await e.profiles.getById(r);if(!a)throw new t(r);let o=n(a,i);return await e.profiles.put(o),o});export{r as t};
-//# sourceMappingURL=update-profile-CWHsLiU7.js.map
