@@ -1,2 +1,0 @@
-import{r as e}from"./preload-helper-DNjLGUyX.js";var t=e({default:()=>a,kind:()=>n,load:()=>i,target:()=>r}),n={warmup:`Warm up`,cooldown:`Cool down`,recovery:`Recovery`,rest:`Rest`,interval:`Interval`,active:`Active`,other:`Work`},r={percentMax:`@ {{value}}% max`,stroke:`Stroke`,easy:`Easy`},i={recovery:`Recovery`,moderate:`Moderate`,hard:`Hard`,veryHard:`Very Hard`},a={kind:n,target:r,load:i};export{t as n,a as t};
-//# sourceMappingURL=workout-review-flmUtpSH.js.map

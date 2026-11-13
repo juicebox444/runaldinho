@@ -106,42 +106,7 @@
       }
     </script>
 
-    <!--
-      Runtime configuration. The placeholder __UMAMI_WEBSITE_ID__ is
-      substituted by the deploy step (NOT by Vite). When the placeholder is
-      still in place — local dev, preview builds, or deploys without a website
-      id — the conditional loader below treats it as "no id" and the Umami
-      tracker is never injected. 12-factor III + V: the build artifact is
-      environment-agnostic.
-    -->
-    <script>
-      // Defaults; the deploy step substitutes the placeholder. Earlier scripts
-      // (e.g., test fixtures using Playwright's addInitScript) may pre-seed
-      // window.__KAIORD_CONFIG__ — preserve their values.
-      window.__KAIORD_CONFIG__ = window.__KAIORD_CONFIG__ || {
-        umamiWebsiteId: "__UMAMI_WEBSITE_ID__",
-      };
-    </script>
-    <script>
-      (function () {
-        var cfg = window.__KAIORD_CONFIG__ || {};
-        var id = cfg.umamiWebsiteId;
-        // Guard on the first character rather than the placeholder literal:
-        // the deploy-time sed rewrites every "__UMAMI_WEBSITE_ID__" in this
-        // file, so a literal comparison here would be rewritten too and always
-        // match. A real website id (UUID) never starts with "_".
-        if (!id || id.charAt(0) === "_") return;
-        var s = document.createElement("script");
-        s.defer = true;
-        s.src = "https://cloud.umami.is/script.js";
-        s.setAttribute("data-website-id", id);
-        // Editor routes are client-side (wouter); disable auto-track and
-        // submit page views manually with the base-relative path.
-        s.setAttribute("data-auto-track", "false");
-        document.head.appendChild(s);
-      })();
-    </script>
-    <script type="module" crossorigin src="/runaldinho/assets/index-C8LroSQG.js"></script>
+<script type="module" crossorigin src="/runaldinho/assets/index-D3bRnkzh.js"></script>
     <link rel="modulepreload" crossorigin href="/runaldinho/assets/preload-helper-DNjLGUyX.js">
     <link rel="modulepreload" crossorigin href="/runaldinho/assets/vendor-ui-C43Zr3cL.js">
     <link rel="modulepreload" crossorigin href="/runaldinho/assets/vendor-zod-DoqZZbs7.js">
@@ -150,34 +115,8 @@
     <link rel="modulepreload" crossorigin href="/runaldinho/assets/crypto-y7-SmdbY.js">
     <link rel="modulepreload" crossorigin href="/runaldinho/assets/logger-DUWXkIVG.js">
     <link rel="modulepreload" crossorigin href="/runaldinho/assets/coaching-activity-record-DmtzJNIX.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/athlete-D1Kchamy.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/calendar-CpEtE_Pt.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/chat-y1F4vlcm.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/coach-CX27w_U6.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/coaching-BpyMGgvs.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/common-Be9aG32i.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/connections-Cd2j6MxO.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/create-workout-DrSy5LZo.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/daily-CvaTOuQd.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/editor-D2TmjX6i.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/errors-B2qikmHz.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/health-DGNfInEp.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/help-BaEB3FEW.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/import-Dhw8kMu-.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/labImport-C5NSvHTx.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/labs-ui-vfnO1RYh.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/labs-xzfn9zIX.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/library-K0srDTut.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/nav-DRZ1z6A6.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/nutrition-BLUta_4I.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/palette-7GdrCfHK.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/settings-C-JCxyUR.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/setup-BwoOCBU3.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/targets-BVpV5v3R.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/workout-detail-C2zFxoMP.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/workout-review-flmUtpSH.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/zones-SwVDDw8g.js">
-    <link rel="modulepreload" crossorigin href="/runaldinho/assets/use-translate-T2PCxOeM.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/i18n-en-BzEoPnV3.js">
+    <link rel="modulepreload" crossorigin href="/runaldinho/assets/use-translate-BQJlyrdN.js">
     <link rel="modulepreload" crossorigin href="/runaldinho/assets/coaching-account-C1ReogQm.js">
     <link rel="modulepreload" crossorigin href="/runaldinho/assets/profile-D6psYLIb.js">
     <link rel="modulepreload" crossorigin href="/runaldinho/assets/calculate-power-zones-Bqf9dUul.js">

@@ -1,2 +1,1 @@
 function e(e){let t=e.extensions?.structured_workout;if(t&&typeof t==`object`&&`steps`in t&&Array.isArray(t.steps))return t}function t(t,n){let r=e(t);return!n||!r?t:{...t,extensions:{...t.extensions,structured_workout:{...r,notes:n}}}}function n(t,n){let r=e(t),i=n?.trim();return!r||r.name?.trim()||!i?t:{...t,extensions:{...t.extensions,structured_workout:{...r,name:i}}}}export{t as n,n as r,e as t};
-//# sourceMappingURL=structured-workout-ClnTxeki.js.map

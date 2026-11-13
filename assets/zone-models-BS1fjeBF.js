@@ -1,2 +1,1 @@
 var e=[`Recovery`,`Endurance`,`Tempo`,`Threshold`,`VO₂ Max`],t=[.16,.26,.2,.2,.18],n={kind:`ascending`,names:e,pcts:[`< 55%`,`55–75%`,`75–90%`,`90–105%`,`> 105%`],bounds:[.55,.75,.9,1.05]},r={kind:`ascending`,names:e,pcts:[`< 82%`,`82–89%`,`89–94%`,`94–100%`,`> 100%`],bounds:[.82,.89,.94,1]},i={kind:`pace`,names:e,pcts:[`< 84%`,`84–90%`,`90–95%`,`95–102%`,`> 102%`],bounds:[.84,.9,.95,1.02]};export{t as i,i as n,n as r,r as t};
-//# sourceMappingURL=zone-models-BS1fjeBF.js.map

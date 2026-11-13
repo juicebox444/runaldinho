@@ -1,2 +1,1 @@
 function e(e,t,n={}){let[r,i=``]=e.split(`?`),a=new URLSearchParams(i);return a.set(`from`,t),n.week&&a.set(`week`,n.week),n.date&&a.set(`date`,n.date),`${r}?${a.toString()}`}export{e as t};
-//# sourceMappingURL=with-origin-DCktrZKj.js.map

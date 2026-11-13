@@ -1,2 +1,1 @@
 import{i as e}from"./preload-helper-DNjLGUyX.js";import{I as t,R as n}from"./vendor-ui-C43Zr3cL.js";var r=e(n(),1),i=t(),a=(0,r.createContext)(null),o=({persistence:e,children:t})=>(0,i.jsx)(a.Provider,{value:e,children:t}),s=()=>{let e=(0,r.useContext)(a);if(!e)throw Error(`usePersistence must be used within PersistenceProvider`);return e};export{s as n,o as t};
-//# sourceMappingURL=persistence-context-dzTsq-7D.js.map
