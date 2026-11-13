@@ -1,1 +1,2 @@
 import{i as e}from"./preload-helper-DNjLGUyX.js";import{I as t,R as n}from"./vendor-ui-C43Zr3cL.js";var r=e(n(),1),i=t(),a=`rounded-2xl border border-edge-soft bg-surface`,o={default:``,interactive:`group relative overflow-hidden transition-all hover:shadow-lg`},s=(0,r.forwardRef)(({variant:e=`default`,className:t=``,children:n,...r},s)=>{let c=[a,o[e],t].filter(Boolean).join(` `);return(0,i.jsx)(`div`,{ref:s,className:c,...r,children:n})});s.displayName=`Card`;export{s as t};
+//# sourceMappingURL=Card-P-j5C5AA.js.map

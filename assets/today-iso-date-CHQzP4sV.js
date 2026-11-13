@@ -1,1 +1,2 @@
 function e(){let e=new Date,t=String(e.getMonth()+1).padStart(2,`0`),n=String(e.getDate()).padStart(2,`0`);return`${e.getFullYear()}-${t}-${n}`}export{e as t};
+//# sourceMappingURL=today-iso-date-CHQzP4sV.js.map

@@ -1,1 +1,2 @@
 function e(e){let t=Math.floor(e/60),n=e%60;return`${t}:${String(n).padStart(2,`0`)}`}function t(e){let t=e.split(`:`);if(t.length!==2)return;let n=parseInt(t[0]??``,10),r=parseInt(t[1]??``,10);if(!(isNaN(n)||isNaN(r)))return n*60+r}export{e as n,t};
+//# sourceMappingURL=pace-format-BGHcilRC.js.map

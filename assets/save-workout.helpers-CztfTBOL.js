@@ -1,1 +1,2 @@
 var e=(e,t)=>{let n=new Blob([e],{type:`application/vnd.kaiord+json`}),r=URL.createObjectURL(n),i=document.createElement(`a`);i.href=r,i.download=t,document.body.appendChild(i),i.click(),document.body.removeChild(i),URL.revokeObjectURL(r)},t=e=>e.normalize(`NFD`).replace(/\p{M}/gu,``).replace(/[^a-z0-9_-]/gi,`_`).replace(/_+/g,`_`).replace(/^_|_$/g,``).toLowerCase().slice(0,50)||`workout`;export{e as n,t};
+//# sourceMappingURL=save-workout.helpers-CztfTBOL.js.map

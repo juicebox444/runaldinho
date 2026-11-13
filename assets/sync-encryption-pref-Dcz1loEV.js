@@ -1,1 +1,2 @@
 var e=null;function t(){return e}function n(t){e=t}var r=`kaiord-sync-encryption-enabled`,i=`kaiord-sync-plaintext-warning-seen`;function a(e){try{return localStorage.getItem(e)===`true`}catch{return!1}}function o(e,t){try{localStorage.setItem(e,t?`true`:`false`)}catch{}}function s(){return a(r)}function c(e){o(r,e)}function l(){return a(i)}function u(){o(i,!0)}export{t as a,l as i,u as n,n as o,c as r,s as t};
+//# sourceMappingURL=sync-encryption-pref-Dcz1loEV.js.map

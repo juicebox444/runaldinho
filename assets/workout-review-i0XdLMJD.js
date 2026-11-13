@@ -1,0 +1,2 @@
+var e={kind:{warmup:`Calentamiento`,cooldown:`Vuelta a la calma`,recovery:`Recuperación`,rest:`Descanso`,interval:`Intervalo`,active:`Activo`,other:`Trabajo`},target:{percentMax:`@ {{value}}% máx`,stroke:`Estilo`,easy:`Suave`},load:{recovery:`Recuperación`,moderate:`Moderada`,hard:`Dura`,veryHard:`Muy dura`}};export{e as default};
+//# sourceMappingURL=workout-review-i0XdLMJD.js.map
