@@ -1,10 +1,10 @@
 {
-  "id": "/runaldinho/",
+  "id": "/app/",
   "name": "Runaldinho",
   "short_name": "Runaldinho",
   "description": "Local-first training calendar, workout editor and fitness file converter.",
-  "start_url": "/runaldinho/",
-  "scope": "/runaldinho/",
+  "start_url": "/app/",
+  "scope": "/app/",
   "display": "standalone",
   "theme_color": "#0d0d0d",
   "background_color": "#0d0d0d",
