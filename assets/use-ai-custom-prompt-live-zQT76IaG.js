@@ -1,0 +1,1 @@
+import{u as e}from"./use-translate-Cs2SM5my.js";import{r as t}from"./use-ai-model-bindings-live-CwOd1dEA.js";var n=()=>e(()=>t.getCustomPrompt(),[]);export{n as t};

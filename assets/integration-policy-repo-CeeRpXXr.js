@@ -1,0 +1,1 @@
+import{O as e,j as t}from"./use-translate-Cs2SM5my.js";var n=e(t);export{n as t};
