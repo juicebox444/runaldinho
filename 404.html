@@ -3,21 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="noindex" />
-    <link rel="canonical" href="https://juicebox444.github.io/runaldinho/" />
     <title>Runaldinho</title>
     <script>
-      // A deep link such as /runaldinho/calendar/2026-W46 is a 404 on Pages.
-      // Hand the path to the router instead of dropping it on the shell.
-      (function () {
-        var base = "/runaldinho/";
-        var path = location.pathname.indexOf(base) === 0
-          ? location.pathname.slice(base.length)
-          : location.pathname.replace(/^\/+/, "");
-        var hash = location.hash || (path ? "#/" + path : "");
-        location.replace(base + hash + location.search);
-      })();
+      window.location.replace("/runaldinho/" + window.location.hash);
     </script>
+    <meta http-equiv="refresh" content="0; url=/runaldinho/" />
   </head>
   <body>
     <p><a href="/runaldinho/">Abrir Runaldinho</a></p>

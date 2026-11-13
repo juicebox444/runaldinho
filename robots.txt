@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://juicebox444.github.io/runaldinho/sitemap.xml

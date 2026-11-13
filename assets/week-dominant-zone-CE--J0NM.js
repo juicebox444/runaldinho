@@ -1,1 +1,0 @@
-import"./athlete-BpSI-0Kw.js";import{t as e}from"./threshold-for-sport-CXkzHzGK.js";import{i as t,t as n,u as r}from"./workout-review-DGXf4scM.js";var i=5;function a(a,o){let s=Array(i).fill(0);for(let n of a){if(!n.krd)continue;let i=r(n.krd);i&&t(i,e(o,n.sport)).forEach((e,t)=>{s[t]=(s[t]??0)+e})}return n(s)}export{a as weekDominantZone};
