@@ -1,0 +1,2 @@
+import{i as e}from"./preload-helper-DNjLGUyX.js";import{R as t}from"./vendor-ui-C43Zr3cL.js";var n=e(t(),1),r=e=>{let t=(0,n.useRef)(e);return(0,n.useEffect)(()=>{t.current=e},[e]),t};export{r as t};
+//# sourceMappingURL=use-latest-ref-C8YiyRym.js.map
