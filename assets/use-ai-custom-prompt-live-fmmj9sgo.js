@@ -1,2 +1,0 @@
-import{u as e}from"./use-translate-T2PCxOeM.js";import{r as t}from"./use-ai-model-bindings-live-BktOklfI.js";var n=()=>e(()=>t.getCustomPrompt(),[]);export{n as t};
-//# sourceMappingURL=use-ai-custom-prompt-live-fmmj9sgo.js.map
