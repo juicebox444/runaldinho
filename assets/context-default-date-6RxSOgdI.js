@@ -1,0 +1,2 @@
+import{t as e}from"./today-iso-date-CHQzP4sV.js";import{nn as t}from"./index-Dg74E7Lj.js";function n(n,r=e()){let i=n?t(n):[];return i.length===0||i.includes(r)?r:i[0]??r}export{n as t};
+//# sourceMappingURL=context-default-date-6RxSOgdI.js.map
