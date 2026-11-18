@@ -1,0 +1,1 @@
+import"./index-C0pg_w1-.js";
